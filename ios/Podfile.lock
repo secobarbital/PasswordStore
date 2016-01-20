@@ -1,0 +1,24 @@
+PODS:
+  - ObjectivePGP (0.4.2):
+    - OpenSSL-Universal (= 1.0.1.q)
+  - OpenSSL-Universal (1.0.1.q)
+
+DEPENDENCIES:
+  - ObjectivePGP (from `https://github.com/krzyzanowskim/ObjectivePGP.git`, branch
+    `master`)
+
+EXTERNAL SOURCES:
+  ObjectivePGP:
+    :branch: :master
+    :git: https://github.com/krzyzanowskim/ObjectivePGP.git
+
+CHECKOUT OPTIONS:
+  ObjectivePGP:
+    :commit: c00c72ce05701f42cfd24d7f0dceb36cd221e8f6
+    :git: https://github.com/krzyzanowskim/ObjectivePGP.git
+
+SPEC CHECKSUMS:
+  ObjectivePGP: 2518ce44d5c79bb3adb94652ed863eedcd4dda92
+  OpenSSL-Universal: 6166f82e7fef4f244d23e0f6df9569faf28e5147
+
+COCOAPODS: 0.39.0
