@@ -23,6 +23,7 @@
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		7C8BF9174CADEB396A4A1C08 /* libPods-PasswordStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB1C48B4ABC20B71283610A1 /* libPods-PasswordStore.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		CEC1EC3E1C4F63060084CA3B /* PGPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC1EC3C1C4F63060084CA3B /* PGPManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,8 @@
 		61A6221D7F48851E02B12B25 /* Pods-PasswordStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordStore/Pods-PasswordStore.debug.xcconfig"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		CEC1EC3C1C4F63060084CA3B /* PGPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PGPManager.m; path = PasswordStore/PGPManager.m; sourceTree = "<group>"; };
+		CEC1EC3D1C4F63060084CA3B /* PGPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PGPManager.h; path = PasswordStore/PGPManager.h; sourceTree = "<group>"; };
 		DB1C48B4ABC20B71283610A1 /* libPods-PasswordStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PasswordStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -240,6 +243,8 @@
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				CEC1EC3D1C4F63060084CA3B /* PGPManager.h */,
+				CEC1EC3C1C4F63060084CA3B /* PGPManager.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
@@ -619,6 +624,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				CEC1EC3E1C4F63060084CA3B /* PGPManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
